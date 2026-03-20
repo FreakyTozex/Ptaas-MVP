@@ -11,6 +11,8 @@ I needed to end this project fast so I ended up using AI for the backend because
 ### BRANCHES
 The branch master is for the backend; The branch frontend for the frontend.
 
+I am also trying to learn how to properly use Git and Github xd.
+
 
 ### DISCLAIMER
 Some services are not fully working but they are already implemented, this is due to them not working like expected or just lack of credentials. In the case of Securiti.ai we needed to pay for a subscription to be able to use it and get their API key.
