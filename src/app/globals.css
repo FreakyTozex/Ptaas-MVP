@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #2e9d96;
+  --brand-light: #4db8b0;
+  --brand-dark: #1e6562;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #f8fafb;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Scan progress animation */
+@keyframes progress-shine {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.progress-animated {
+  background: linear-gradient(90deg, #2e9d96 0%, #4db8b0 40%, #84d3cc 50%, #4db8b0 60%, #2e9d96 100%);
+  background-size: 200% 100%;
+  animation: progress-shine 2s linear infinite;
+}
+
+/* Severity badges */
+.badge-critical { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+.badge-high     { background: #fff7ed; color: #ea580c; border: 1px solid #fed7aa; }
+.badge-medium   { background: #fefce8; color: #ca8a04; border: 1px solid #fde68a; }
+.badge-low      { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
+.badge-info     { background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; }
+
+/* Consent status */
+.status-compliant     { background: #f0fdf4; color: #16a34a; }
+.status-non_compliant { background: #fef2f2; color: #dc2626; }
+.status-partial       { background: #fff7ed; color: #ea580c; }
+.status-unknown       { background: #f8fafc; color: #64748b; }
