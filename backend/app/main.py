@@ -24,6 +24,7 @@ app = FastAPI(
     - **n8n** — Orquestração de workflows e relatórios
     - **Supabase** — PostgreSQL + Auth + Realtime + Storage
     - **Securiti.ai** — Gestão de Consentimentos (Cookies / RGPD Art. 7)
+    - **OWASP ZAP** — Scanner de vulnerabilidades (RGPD Art. 5, 25, 32)
     """,
     version="2.0.0",
     lifespan=lifespan,

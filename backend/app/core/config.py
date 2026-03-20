@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     SECURITI_API_KEY: str
     SECURITI_ORG_ID: str
 
+    # ── ZAP (OWASP) ───────────────────────────────────────────
+    ZAP_URL: str = "http://localhost:8080"
+    ZAP_API_KEY: str = ""
+
     # ── CORS ──────────────────────────────────────────────────
     ALLOWED_ORIGINS: List[str] = [
         "http://localhost:3000",
