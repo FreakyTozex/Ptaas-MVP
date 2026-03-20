@@ -4,6 +4,7 @@ This was a little project I made for a college class, I never worked with any of
 Frameworks used:
 - Frontend: Next.js with React and Tailwind.css;
 - Backend: FastAPI.
+
 I was somewhat familiar with React and Next.js, but FastAPI was a whole new Framework for me to explore (this was my first project on Python also) I started with Flask but then I discovered FastAPI and decided do give it a shot.
 I needed to end this project fast so I ended up using AI for the backend because I didnt have time to study the FastAPI framework, even though it has AI code I still learned some basics of the Framework and will in the future have a deep study of it. I will also thoroughly refactor the code if needed (just like the last commit I did, I had to create a .env and remove all api keys to the services implemented) when I get the hang of Python and FastAPI.
 
