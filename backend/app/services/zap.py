@@ -7,9 +7,6 @@ import asyncio
 from typing import List, Dict, Any
 from app.core.config import settings
 
-#ZAP_URL    = "http://localhost:8080"
-#ZAP_APIKEY = "ptaas-zap-key"
-
 ZAP_URL    = settings.ZAP_URL
 ZAP_APIKEY = settings.ZAP_API_KEY
 
